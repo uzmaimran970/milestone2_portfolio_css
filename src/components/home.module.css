@@ -1,0 +1,105 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  width: 400px;
+  height: 500px;
+  border-radius: 70%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+.right h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.right p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.downloadButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0e141b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.downloadButton:hover {
+  background-color: #6a7785;
+}
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .profileImage {
+      width: 250px;
+      height: 300px;
+  }
+
+  .right h1 {
+      font-size: 1.5rem;
+  }
+
+  .right p {
+      font-size: 0.9rem;
+  }
+
+  .downloadButton {
+      font-size: 0.9rem;
+  }
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 350px) {
+  .container {
+      padding: 20px;
+  }
+
+  .profileImage {
+      width: 150px;
+      height: 200px;
+  }
+
+  .right h1 {
+      font-size: 1.2rem;
+  }
+
+  .right p {
+      font-size: 0.8rem;
+  }
+
+  .downloadButton {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+  }
+}

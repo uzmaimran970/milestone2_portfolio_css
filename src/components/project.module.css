@@ -1,0 +1,88 @@
+.projectContainer {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .projectCard {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectImage {
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .projectCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .projectCard p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .viewButton {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewButton:hover {
+    background-color: #005bb5;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .projectList {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .projectCard {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .projectCard h3 {
+      font-size: 1.2rem;
+    }
+  
+    .projectCard p {
+      font-size: 0.9rem;
+    }
+  
+    .viewButton {
+      padding: 8px 12px;
+      font-size: 0.8rem;
+    }
+  }
+  
