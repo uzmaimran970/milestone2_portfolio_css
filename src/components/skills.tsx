@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './Skills.module.css';
+import styles from './skills.module.css'
 
 const Skills = () => {
   return (
