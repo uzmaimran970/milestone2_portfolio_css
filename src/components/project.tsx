@@ -3,6 +3,7 @@ import styles from './project.module.css'
 
 const Project = () => {
   return (
+    <section id="projects">
     <div className={styles.projectContainer}>
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.projectList}>
@@ -26,6 +27,7 @@ const Project = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

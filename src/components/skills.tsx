@@ -3,6 +3,7 @@ import styles from './skills.module.css'
 
 const Skills = () => {
   return (
+    <section id="skills">
     <div className={styles.skillsContainer}>
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.skillsList}>
@@ -32,6 +33,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

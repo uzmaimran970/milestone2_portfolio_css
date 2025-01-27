@@ -3,6 +3,7 @@ import styles from "./footer.module.css"
 
 export default function Footer() {
   return (
+    <section id="footer">
     <footer className={styles.footer}>
       <div className={styles.textSection}>
         <h3>Why Should You Hire Me?</h3>
@@ -20,5 +21,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </section>
   );
 }

@@ -3,6 +3,7 @@ import styles from './home.module.css'
 
 const Home = () => {
   return (
+    <section id="home">
     <div className={styles.container}>
       <div className={styles.left}>
         <img src="/buzma.jpg" alt="Profile" className={styles.profileImage} />
@@ -31,6 +32,7 @@ const Home = () => {
     </a>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -3,6 +3,7 @@ import styles from "./contactform.module.css"
 
 const ContactForm = () => {
   return (
+    <section id="contactform">
     <div className={styles.container}>
       <h2 className={styles.heading}>Contact Me</h2>
       <form className={styles.form}>
@@ -29,6 +30,7 @@ const ContactForm = () => {
         <button type="submit" className={styles.button}>Send Message</button>
       </form>
     </div>
+    </section>
   );
 };
 
